@@ -6,7 +6,16 @@
     width: 280px;
     height: 280px;
     box-shadow:10px 10px 0 #FFF;
+    
 }
+
+.card-project:nth-child(:first) {
+  margin-right: 1034px;
+}
+
+.card-project:nth-child(:third) {
+    margin-right: 148px;
+  }
 
 .card-project.-blue{
     background-color: #4C5B84;
